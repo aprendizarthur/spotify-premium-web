@@ -1,0 +1,81 @@
+/* FORMATACAO PARA IMAGEM DE PERFIL */
+.avatar{
+    vertical-align: middle;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+        bottom: 2px;
+}
+
+/* FORMATACOES NAVEGAÇÃO SUPERIOR */
+#nav-principal a{
+    color: whitesmoke;
+}
+
+#nav-principal a:hover{
+    color: #1DB954;
+}
+
+#nav-principal .nav-item{
+    font-weight: 700;
+}
+
+/* FORMATACAO BAGROUNDS PAGINA */
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#banner{
+    background-image: url(../images/banner.png);
+}
+
+.bg-transparente{
+    border-radius: 20px;
+    background-color: rgba(11, 11, 11, 0.658);
+}
+
+/* FOMRMATACOES SESSÃO PROMO */
+#promo{
+    color: white;
+}
+
+/* HOVER BOTOES CARD */
+botao {
+    transition: transform 0.3s ease;
+}
+
+.botao:hover {
+    transform: scale(1.05);
+}
+
+/* CUSTOMIZAÇÃO BARRA DE ROLAGEM */
+
+/* Para navegadores WebKit (Chrome, Safari) */
+/* Barra de rolagem vertical */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem vertical */
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(89, 87, 87); /* Cor de fundo da pista de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1DB954; /* Cor do polegar da barra de rolagem */
+}
+
+/* Barra de rolagem horizontal */
+::-webkit-scrollbar-horizontal {
+    height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #155c2e; /* Cor do polegar da barra de rolagem ao passar o mouse */
+}
+
+/* FOMRATACAO PARA ROLAGEM DA TELA SER MAIS LENTA AO CLICAR EM UM LINK QUE LEVA Á MESMA PAGINA */
+html {
+    scroll-behavior: smooth;
+}
+
